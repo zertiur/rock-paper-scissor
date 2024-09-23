@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.move-icon {
+    height: 100px;
+
+}
+
+.move-button {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 100px ;
+    border-color: aliceblue;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.reset{
+    font-size: medium;
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
